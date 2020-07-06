@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  label.logo {
+    color: #f2f2f2;
+    font-size: 20px;
+    line-height: 30px;
+    padding: -1px 15px;
+    font-weight: 600;
+    font-family: 'BioRhyme Expanded', serif;
+    margin-left: 10px;
+}
+.navbar {
+  overflow: hidden;
+  background:#073526;
+  padding: 20px 0px;
+}
+.navbar img{
+   float: left;
+   margin-left: 10px
+}
+
+.navbar a {
+  font-family: 'Roboto Mono', monospace;
+  float: right;
+  margin-right: 50px;
+  margin: auto 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: all 2s ease;
+  font-size: 26px;
+}
+
+.navbar a:hover {
+  color: #2D3E50;
+}
+
+.navbar a.active {
+  color: #36B8CF;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+.baner{
+  min-height: calc(100vh - 94px);
+  background:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0,0,0,0.1)), url(./drone-shot-of-beach-shore-1802183.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;/*ukuran menutupi parent*/
+  background-attachment: fixed;/*supaya tetep diam*/
+  position: relative;
+}
+.wellcome{
+    margin-top: 110px;
+font-family: Sansita;
+font-style: normal;
+font-weight: normal;
+font-size: 111px;
+color: var(--mainWhite);
+line-height: 87.5%;
+letter-spacing: 0.22em;
+text-align: center;
+width: 100%;
+
+}
+.cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.detail-btn{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:10px;
+}
+.main-btn{
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+}
+.tombol{
+    margin-top: 80px;
+}
+.detail-btn:hover{
+    background-color: #FFFFFF;
+    color: rgb(1,57,58);
+}
+
+.plans-wrapper {
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    text-align: center;
+}
+
+.plans-wrapper h2 {
+    padding-top: 35px;
+    font-size: 32px;
+    color: #073526;
+}
+
+.plans-wrapper .plans {
+    padding-top: 50px
+}
+
+.plan {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.plans .plan .plan-icon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    line-height: 80px;
+    margin: 0 auto;
+}
+
+.plan h3 {
+    padding-top: 20px;
+    color: #073526;
+}
+
+.plan p {
+    padding-top: 15px;
+}
+
+.plan-icon {
+    font-size: 48px
+}
+
+.clear {
+    clear: left;
+}
+
+.plan:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.message b {
+    color: #336e7b;
+    padding-left: 5px;
+}
+
+.message img {
+    width: 15px;
+    height: 15px;
+}
+
+table{
+    margin:auto 0px;
+    margin: 0px auto;
+    width: 40%;
+    align-items: flex-start;
+    text-align: left;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    float: right;
+    background-color: #52b3d9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  input[type=submit]:hover {
+    background-color: #457fa0;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+
+@media screen and (max-width: 1080px) {
+
+    .message {
+        width: 100%;
+    }
+    .message b {
+        color: #336e7b;
+        padding-left: 5px;
+    }
+    .message img {
+        width: 15px;
+        height: 15px;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=email], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        float: right;
+        background-color: #52b3d9;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+      input[type=submit]:hover {
+        background-color: #457fa0;
+    }
+
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 780px) {
+     label.logo {display: none;}
+      .navbar a:not(:first-child) {display: none;}
+  .navbar img{
+   display: none;
+}
+  .navbar a.icon {
+    float: left;
+    display: block;
+  }
+   .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    left: 10;
+    top: 0;
+  }
+  .navbar.responsive a {
+    margin: 0;
+    float: none;
+    display: block;
+    text-align: center;
+  }
+      .wellcome{
+    font-family: Sansita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    color: var(--mainWhite);
+    line-height: 87.5%;
+    letter-spacing: 0.22em;
+    }
+  .baner{
+  min-height: calc(100vh - 300px);
+  background:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0,0,0,0.1)), url(./drone-shot-of-beach-shore-1802183.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;/*ukuran menutupi parent*/
+  background-attachment: fixed;/*supaya tetep diam*/
+  position: relative;
+}
+    .footer-distributed .footer-right{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-distributed .footer-left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-distributed .footer-center{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    table{
+    margin:auto 0px;
+    margin: 0px auto;
+    width: 80%;
+    align-items: flex-start;
+    text-align: left;
+    }
+
+    .message {
+        width: 100%;
+    }
+    .message b {
+        color: #336e7b;
+        padding-left: 5px;
+    }
+    .message img {
+        width: 15px;
+        height: 15px;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=email], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        float: right;
+        background-color: #52b3d9;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+      input[type=submit]:hover {
+        background-color: #457fa0;
+    }
+
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.footer-distributed{
+        background-color: #073526;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+
+/* Footer left */
+
+.footer-left{
+    width: 30%;
+}
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px "Arial", cursive;
+    margin: 0;
+}
+
+
+.footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-center{
+    width: 35%;
+}
+
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+
+
+/* Footer Right */
+
+.footer-right{
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
