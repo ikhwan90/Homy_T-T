@@ -1,0 +1,24 @@
+@media all and (max-width: 1000px) {
+    .plan {
+        float: left;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width:670px) {
+    .plan {
+        float: left;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .plans-wrapper h2 {
+        font-size: 24px;
+    }
+    .plan h3 {
+        font-size: 20px;
+    }
+    .plan p {
+        font-size: 16px;
+    }
+}
